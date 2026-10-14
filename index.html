@@ -88,25 +88,26 @@ h1 {
     .news-list { margin:0; }
     .placeholder { color:var(--muted); font-style:italic; }
 
-    .person-card {
-      display:grid;
-      grid-template-columns:210px 1fr;
-      gap:28px;
-      align-items:start;
-      background:var(--card);
-      border:1px solid #d9d3c6;
-      border-left:4px solid var(--accent);
-      border-radius:10px;
-      padding:24px 26px;
-    }
-    .person-photo {
-      width:100%;
-      max-width:210px;
-      aspect-ratio: 4 / 5;
-      object-fit:cover;
-      border-radius:10px;
-      display:block;
-    }
+.person-card {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 20px;
+  align-items: center;
+  background: var(--card);
+  border: 1px solid #d9d3c6;
+  border-left: 4px solid var(--accent);
+  border-radius: 10px;
+  padding: 16px 20px;
+  max-width: 650px;
+}
+.person-photo {
+  width: 100%;
+  max-width: 160px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
     .person-label {
       margin:4px 0 12px;
       color:#b1842e;
