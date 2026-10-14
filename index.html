@@ -245,6 +245,26 @@
     .person-languages { margin:0; font-size:.98rem; }
     .person-languages strong { color:var(--navy); }
 
+    .affil-logos {
+      list-style:none;
+      display:flex;
+      flex-wrap:wrap;
+      align-items:center;
+      gap:18px 34px;
+      margin:20px 0 0;
+      padding:18px 0 0;
+      border-top:1px solid var(--line);
+    }
+    .affil-logos a { display:block; line-height:0; }
+    .affil-logos img {
+      height:34px;
+      width:auto;
+      filter:grayscale(1);
+      opacity:.65;
+      transition:filter .2s, opacity .2s;
+    }
+    .affil-logos a:hover img, .affil-logos a:focus-visible img { filter:none; opacity:1; }
+
     /* Contact */
     #contact strong { font-family:var(--serif); font-size:1.25rem; color:var(--navy); }
 
@@ -353,6 +373,12 @@
             <li><span class="cv-when">2016 Sept – 2018 Sept</span><span>Master, ISSP, The University of Tokyo</span></li>
           </ul>
           <p class="person-languages"><strong>Languages:</strong> English · Japanese · Chinese</p>
+          <ul class="affil-logos" aria-label="Affiliations">
+            <li><a href="https://www.hzdr.de/hld" title="Dresden High Magnetic Field Laboratory (HLD), HZDR"><img src="images/logos/logo-hzdr.png" alt="HLD / Helmholtz-Zentrum Dresden-Rossendorf"></a></li>
+            <li><a href="https://www.humboldt-foundation.de/" title="Alexander von Humboldt Foundation"><img src="images/logos/logo-humboldt.png" alt="Alexander von Humboldt Foundation"></a></li>
+            <li><a href="https://www.uni-augsburg.de/" title="University of Augsburg"><img src="images/logos/logo-augsburg.png" alt="University of Augsburg"></a></li>
+            <li><a href="https://www.u-tokyo.ac.jp/" title="The University of Tokyo"><img src="images/logos/logo-utokyo.png" alt="The University of Tokyo"></a></li>
+          </ul>
         </div>
       </div>
     </section>
