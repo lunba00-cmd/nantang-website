@@ -242,8 +242,6 @@
     }
     .cv-when { font-weight:600; color:var(--navy-2); white-space:nowrap; }
     .cv-note { color:var(--muted); font-size:.93rem; }
-    .person-languages { margin:0; font-size:.98rem; }
-    .person-languages strong { color:var(--navy); }
 
     .affil-logos {
       list-style:none;
@@ -251,7 +249,7 @@
       flex-wrap:wrap;
       align-items:center;
       gap:18px 34px;
-      margin:20px 0 0;
+      margin:6px 0 0;
       padding:18px 0 0;
       border-top:1px solid var(--line);
     }
@@ -263,6 +261,10 @@
       opacity:.65;
       transition:filter .2s, opacity .2s;
     }
+    .affil-logos .logo-hzdr { height:60px; }
+    .affil-logos .logo-humboldt { height:50px; }
+    .affil-logos .logo-augsburg { height:30px; }
+    .affil-logos .logo-utokyo { height:34px; }
     .affil-logos a:hover img, .affil-logos a:focus-visible img { filter:none; opacity:1; }
 
     /* Contact */
@@ -372,12 +374,11 @@
             <li><span class="cv-when">2018 Sept – 2021 Sept</span><span>PhD, ISSP, The University of Tokyo<br><span class="cv-note">Thesis: Spin-orbital quantum dynamics of multipolar spin ice Pr<sub>2</sub>Zr<sub>2</sub>O<sub>7</sub></span></span></li>
             <li><span class="cv-when">2016 Sept – 2018 Sept</span><span>Master, ISSP, The University of Tokyo</span></li>
           </ul>
-          <p class="person-languages"><strong>Languages:</strong> English · Japanese · Chinese</p>
           <ul class="affil-logos" aria-label="Affiliations">
-            <li><a href="https://www.hzdr.de/hld" title="Dresden High Magnetic Field Laboratory (HLD), HZDR"><img src="images/logos/logo-hzdr.png" alt="HLD / Helmholtz-Zentrum Dresden-Rossendorf"></a></li>
-            <li><a href="https://www.humboldt-foundation.de/" title="Alexander von Humboldt Foundation"><img src="images/logos/logo-humboldt.png" alt="Alexander von Humboldt Foundation"></a></li>
-            <li><a href="https://www.uni-augsburg.de/" title="University of Augsburg"><img src="images/logos/logo-augsburg.png" alt="University of Augsburg"></a></li>
-            <li><a href="https://www.u-tokyo.ac.jp/" title="The University of Tokyo"><img src="images/logos/logo-utokyo.png" alt="The University of Tokyo"></a></li>
+            <li><a href="https://www.hzdr.de/hld" title="Dresden High Magnetic Field Laboratory (HLD), HZDR"><img class="logo-hzdr" src="images/logos/logo-hzdr.png" alt="HLD / Helmholtz-Zentrum Dresden-Rossendorf"></a></li>
+            <li><a href="https://www.humboldt-foundation.de/" title="Alexander von Humboldt Foundation"><img class="logo-humboldt" src="images/logos/logo-humboldt.png" alt="Alexander von Humboldt Foundation"></a></li>
+            <li><a href="https://www.uni-augsburg.de/" title="University of Augsburg"><img class="logo-augsburg" src="images/logos/logo-augsburg.png" alt="University of Augsburg"></a></li>
+            <li><a href="https://www.u-tokyo.ac.jp/" title="The University of Tokyo"><img class="logo-utokyo" src="images/logos/logo-utokyo.png" alt="The University of Tokyo"></a></li>
           </ul>
         </div>
       </div>
